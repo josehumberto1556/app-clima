@@ -21,23 +21,7 @@ function App() {
     buscarClimaPorCiudad(ciudadInput);
   };
 
-  // Función para obtener un icono representativo basado en la condición del clima
-  const getWeatherIcon = (iconCode: string) => {
-    // Los códigos de icono de OpenWeatherMap son bastante específicos
-    // Puedes mapear los más comunes a iconos de react-icons
-    switch (iconCode.slice(0, 2)) { // Los dos primeros dígitos suelen indicar la condición principal
-      case '01': return <FaSun className="weather-detail-icon sun" />; // Clear sky
-      case '02': return <FaCloudSun className="weather-detail-icon partly-cloudy" />; // Few clouds
-      case '03': return <FaCloud className="weather-detail-icon clouds" />; // Scattered clouds
-      case '04': return <FaCloud className="weather-detail-icon broken-clouds" />; // Broken clouds
-      case '09': return <FaCloudShowersHeavy className="weather-detail-icon rain" />; // Shower rain
-      case '10': return <FaCloudShowersHeavy className="weather-detail-icon rain" />; // Rain
-      case '11': return <FaCloudShowersHeavy className="weather-detail-icon thunderstorm" />; // Thunderstorm
-      case '13': return <FaCloud className="weather-detail-icon snow" />; // Snow
-      case '50': return <FaSmog className="weather-detail-icon mist" />; // Mist
-      default: return <FaCloud className="weather-detail-icon default" />; // Fallback
-    }
-  };
+ 
 
   return (
     <div className="weather-app-container">
