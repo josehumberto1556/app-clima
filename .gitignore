@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+
+# Ignora archivos de log o de configuración local
+*.log
+.env
+.env.*.local
+
+# Archivos de caché de Vite (¡Añadido/Verificado!)
+.vite/ # O /v3-cache (si usas versiones antiguas de Vite)
+dist
+dist-ssr
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
