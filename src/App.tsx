@@ -7,7 +7,7 @@ import './App.css'; // Importa el archivo de estilos
 
 // Importa los iconos que podrías usar (ej. con react-icons)
 // npm install react-icons
-import { FaCloudSun, FaCloudShowersHeavy, FaSun, FaCloud, FaSmog, FaWind, FaMapMarkerAlt, FaSearch } from 'react-icons/fa';
+import { FaCloud, FaWind, FaMapMarkerAlt, FaSearch } from 'react-icons/fa';
 
 function App() {
   const [ciudadInput, setCiudadInput] = useState<string>('');
