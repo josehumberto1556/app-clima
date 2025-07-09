@@ -1,6 +1,6 @@
 # ☀️ Aplicación del Clima con React y Vite
 
-![Weather App Screenshot](https://via.placeholder.com/800x450?text=Captura+de+pantalla+de+la+app)
+Link:https://686dcdda7b27efb02b386d38--appclimar155.netlify.app/
 _Reemplaza esta URL con una captura de pantalla real de tu aplicación._
 
 ## ✨ Descripción General
