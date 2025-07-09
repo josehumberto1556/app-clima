@@ -1,5 +1,5 @@
-// src/App.tsx
-import React, { useState, type FormEvent } from 'react';
+
+import { useState, type FormEvent } from 'react';
 // Asegúrate de que el import del hook sea correcto según tu nombre de archivo
 // Si tu hook se llama CilmaHook.ts, sería './hooks/CilmaHook'
 import { useWeather } from './hooks/cilmaHook';
