@@ -103,7 +103,7 @@ function App() {
         </main>
 
         <footer className="app-footer">
-          <p>&copy; {new Date().getFullYear()} Creado para Portafolio con ❤️</p>
+          <p>&copy; {new Date().getFullYear()} derechos reservados app clima ❤️</p>
         </footer>
       </div>
     </div>
